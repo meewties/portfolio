@@ -1,0 +1,40 @@
+.works {
+    padding-top: 120px;
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 280px);
+        grid-template-rows: repeat(2, 280px);
+        gap: 5px;
+        grid-template-areas:
+            "uber pulse bread plans"
+            "ipad mac mac plans";
+        img {
+            width: 100%;
+        }
+        a {
+            transition: 0.3s;
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+    #uber {
+        grid-area: uber;
+    }
+    #pulse {
+        grid-area: pulse;
+    }
+    #bread {
+        grid-area: bread;
+    }
+    #plans {
+        grid-area: plans;
+    }
+    #ipad {
+        grid-area: ipad;
+    }
+    #mac {
+        grid-area: mac;
+    }
+}
