@@ -1,0 +1,28 @@
+.policy {
+    padding-top: 50px;
+    text-align: center;
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__item {
+        margin-bottom: 20px;
+        &-title {
+            font-size: 18px;
+            text-align: start;
+        }
+        &-descr {
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: start;
+        }
+        &-subdescr {
+            font-size: 16px;
+            margin-top: 20px;
+            padding: 0 50px;
+            text-align: start;
+            margin-bottom: 50px;
+        }
+    }
+}
