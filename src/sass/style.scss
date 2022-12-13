@@ -34,3 +34,8 @@
     background-color: $main-color;
     margin: 25px auto 0 auto;
 }
+.img_adaptive {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
