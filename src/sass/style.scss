@@ -4,18 +4,7 @@
 @import "base/variables";
 @import "base/mixins";
 
-@import "blocks/promo";
-@import "blocks/title";
-@import "blocks/buttons";
-@import "blocks/sidepanel";
-@import "blocks/menu";
-@import "blocks/about";
-@import "blocks/resume";
-@import "blocks/skills";
-@import "blocks/works";
-@import "blocks/price";
-@import "blocks/contacts";
-@import "blocks/policy";
+
 
 * {
     font-family: "Poppins", sans-serif;
@@ -39,3 +28,17 @@
     width: 100%;
     object-fit: cover;
 }
+
+@import "blocks/promo";
+@import "blocks/title";
+@import "blocks/buttons";
+@import "blocks/sidepanel";
+@import "blocks/menu";
+@import "blocks/about";
+@import "blocks/resume";
+@import "blocks/skills";
+@import "blocks/works";
+@import "blocks/price";
+@import "blocks/contacts";
+@import "blocks/policy";
+@import "blocks/media";
