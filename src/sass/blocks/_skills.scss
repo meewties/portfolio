@@ -46,9 +46,9 @@
         gap: 45px;
     }
     &__item {
-        display: flex;
-        justify-content: space-between;
-        z-index: -1;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 36px);
         &-name {
             position: relative;
             padding-left: 14px;
@@ -62,6 +62,7 @@
             }
         }
         &-progress {
+            text-align: right;
             font-weight: 500;
             font-size: 14px;
             line-height: 21px;
